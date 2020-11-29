@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC7DFD72573709B008C867C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFD62573709B008C867C /* AppDelegate.swift */; };
+		ECC7DFD92573709B008C867C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFD82573709B008C867C /* SceneDelegate.swift */; };
+		ECC7DFDB2573709B008C867C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFDA2573709B008C867C /* ViewController.swift */; };
+		ECC7DFDE2573709B008C867C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC7DFDC2573709B008C867C /* Main.storyboard */; };
+		ECC7DFE12573709B008C867C /* MishiPay_Scan_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFDF2573709B008C867C /* MishiPay_Scan_App.xcdatamodeld */; };
+		ECC7DFE32573709D008C867C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC7DFE22573709D008C867C /* Assets.xcassets */; };
+		ECC7DFE62573709D008C867C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC7DFE42573709D008C867C /* LaunchScreen.storyboard */; };
+		ECC7DFF12573709D008C867C /* MishiPay_Scan_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFF02573709D008C867C /* MishiPay_Scan_AppTests.swift */; };
+		ECC7DFFC2573709D008C867C /* MishiPay_Scan_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFFB2573709D008C867C /* MishiPay_Scan_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC7DFED2573709D008C867C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC7DFCB2573709B008C867C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC7DFD22573709B008C867C;
+			remoteInfo = "MishiPay-Scan-App";
+		};
+		ECC7DFF82573709D008C867C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC7DFCB2573709B008C867C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC7DFD22573709B008C867C;
+			remoteInfo = "MishiPay-Scan-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC7DFD32573709B008C867C /* MishiPay-Scan-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MishiPay-Scan-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC7DFD62573709B008C867C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC7DFD82573709B008C867C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECC7DFDA2573709B008C867C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECC7DFDD2573709B008C867C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC7DFE02573709B008C867C /* MishiPay_Scan_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MishiPay_Scan_App.xcdatamodel; sourceTree = "<group>"; };
+		ECC7DFE22573709D008C867C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC7DFE52573709D008C867C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC7DFE72573709D008C867C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC7DFEC2573709D008C867C /* MishiPay-Scan-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MishiPay-Scan-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC7DFF02573709D008C867C /* MishiPay_Scan_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MishiPay_Scan_AppTests.swift; sourceTree = "<group>"; };
+		ECC7DFF22573709D008C867C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC7DFF72573709D008C867C /* MishiPay-Scan-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MishiPay-Scan-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC7DFFB2573709D008C867C /* MishiPay_Scan_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MishiPay_Scan_AppUITests.swift; sourceTree = "<group>"; };
+		ECC7DFFD2573709D008C867C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC7DFD02573709B008C867C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC7DFE92573709D008C867C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC7DFF42573709D008C867C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC7DFCA2573709B008C867C = {
+			isa = PBXGroup;
+			children = (
+				ECC7DFD52573709B008C867C /* MishiPay-Scan-App */,
+				ECC7DFEF2573709D008C867C /* MishiPay-Scan-AppTests */,
+				ECC7DFFA2573709D008C867C /* MishiPay-Scan-AppUITests */,
+				ECC7DFD42573709B008C867C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC7DFD42573709B008C867C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7DFD32573709B008C867C /* MishiPay-Scan-App.app */,
+				ECC7DFEC2573709D008C867C /* MishiPay-Scan-AppTests.xctest */,
+				ECC7DFF72573709D008C867C /* MishiPay-Scan-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC7DFD52573709B008C867C /* MishiPay-Scan-App */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7DFD62573709B008C867C /* AppDelegate.swift */,
+				ECC7DFD82573709B008C867C /* SceneDelegate.swift */,
+				ECC7DFDA2573709B008C867C /* ViewController.swift */,
+				ECC7DFDC2573709B008C867C /* Main.storyboard */,
+				ECC7DFE22573709D008C867C /* Assets.xcassets */,
+				ECC7DFE42573709D008C867C /* LaunchScreen.storyboard */,
+				ECC7DFE72573709D008C867C /* Info.plist */,
+				ECC7DFDF2573709B008C867C /* MishiPay_Scan_App.xcdatamodeld */,
+			);
+			path = "MishiPay-Scan-App";
+			sourceTree = "<group>";
+		};
+		ECC7DFEF2573709D008C867C /* MishiPay-Scan-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7DFF02573709D008C867C /* MishiPay_Scan_AppTests.swift */,
+				ECC7DFF22573709D008C867C /* Info.plist */,
+			);
+			path = "MishiPay-Scan-AppTests";
+			sourceTree = "<group>";
+		};
+		ECC7DFFA2573709D008C867C /* MishiPay-Scan-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7DFFB2573709D008C867C /* MishiPay_Scan_AppUITests.swift */,
+				ECC7DFFD2573709D008C867C /* Info.plist */,
+			);
+			path = "MishiPay-Scan-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC7DFD22573709B008C867C /* MishiPay-Scan-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC7E0002573709D008C867C /* Build configuration list for PBXNativeTarget "MishiPay-Scan-App" */;
+			buildPhases = (
+				ECC7DFCF2573709B008C867C /* Sources */,
+				ECC7DFD02573709B008C867C /* Frameworks */,
+				ECC7DFD12573709B008C867C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MishiPay-Scan-App";
+			productName = "MishiPay-Scan-App";
+			productReference = ECC7DFD32573709B008C867C /* MishiPay-Scan-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC7DFEB2573709D008C867C /* MishiPay-Scan-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC7E0032573709D008C867C /* Build configuration list for PBXNativeTarget "MishiPay-Scan-AppTests" */;
+			buildPhases = (
+				ECC7DFE82573709D008C867C /* Sources */,
+				ECC7DFE92573709D008C867C /* Frameworks */,
+				ECC7DFEA2573709D008C867C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC7DFEE2573709D008C867C /* PBXTargetDependency */,
+			);
+			name = "MishiPay-Scan-AppTests";
+			productName = "MishiPay-Scan-AppTests";
+			productReference = ECC7DFEC2573709D008C867C /* MishiPay-Scan-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC7DFF62573709D008C867C /* MishiPay-Scan-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC7E0062573709D008C867C /* Build configuration list for PBXNativeTarget "MishiPay-Scan-AppUITests" */;
+			buildPhases = (
+				ECC7DFF32573709D008C867C /* Sources */,
+				ECC7DFF42573709D008C867C /* Frameworks */,
+				ECC7DFF52573709D008C867C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC7DFF92573709D008C867C /* PBXTargetDependency */,
+			);
+			name = "MishiPay-Scan-AppUITests";
+			productName = "MishiPay-Scan-AppUITests";
+			productReference = ECC7DFF72573709D008C867C /* MishiPay-Scan-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC7DFCB2573709B008C867C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					ECC7DFD22573709B008C867C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					ECC7DFEB2573709D008C867C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECC7DFD22573709B008C867C;
+					};
+					ECC7DFF62573709D008C867C = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = ECC7DFD22573709B008C867C;
+					};
+				};
+			};
+			buildConfigurationList = ECC7DFCE2573709B008C867C /* Build configuration list for PBXProject "MishiPay-Scan-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC7DFCA2573709B008C867C;
+			productRefGroup = ECC7DFD42573709B008C867C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC7DFD22573709B008C867C /* MishiPay-Scan-App */,
+				ECC7DFEB2573709D008C867C /* MishiPay-Scan-AppTests */,
+				ECC7DFF62573709D008C867C /* MishiPay-Scan-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC7DFD12573709B008C867C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7DFE62573709D008C867C /* LaunchScreen.storyboard in Resources */,
+				ECC7DFE32573709D008C867C /* Assets.xcassets in Resources */,
+				ECC7DFDE2573709B008C867C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC7DFEA2573709D008C867C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC7DFF52573709D008C867C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC7DFCF2573709B008C867C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7DFDB2573709B008C867C /* ViewController.swift in Sources */,
+				ECC7DFD72573709B008C867C /* AppDelegate.swift in Sources */,
+				ECC7DFE12573709B008C867C /* MishiPay_Scan_App.xcdatamodeld in Sources */,
+				ECC7DFD92573709B008C867C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC7DFE82573709D008C867C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7DFF12573709D008C867C /* MishiPay_Scan_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC7DFF32573709D008C867C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC7DFFC2573709D008C867C /* MishiPay_Scan_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC7DFEE2573709D008C867C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC7DFD22573709B008C867C /* MishiPay-Scan-App */;
+			targetProxy = ECC7DFED2573709D008C867C /* PBXContainerItemProxy */;
+		};
+		ECC7DFF92573709D008C867C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC7DFD22573709B008C867C /* MishiPay-Scan-App */;
+			targetProxy = ECC7DFF82573709D008C867C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC7DFDC2573709B008C867C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC7DFDD2573709B008C867C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC7DFE42573709D008C867C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC7DFE52573709D008C867C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC7DFFE2573709D008C867C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECC7DFFF2573709D008C867C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC7E0012573709D008C867C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4KYKRT225;
+				INFOPLIST_FILE = "MishiPay-Scan-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zilingo.MishiPay-Scan-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC7E0022573709D008C867C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4KYKRT225;
+				INFOPLIST_FILE = "MishiPay-Scan-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zilingo.MishiPay-Scan-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECC7E0042573709D008C867C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4KYKRT225;
+				INFOPLIST_FILE = "MishiPay-Scan-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zilingo.MishiPay-Scan-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MishiPay-Scan-App.app/MishiPay-Scan-App";
+			};
+			name = Debug;
+		};
+		ECC7E0052573709D008C867C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4KYKRT225;
+				INFOPLIST_FILE = "MishiPay-Scan-AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zilingo.MishiPay-Scan-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MishiPay-Scan-App.app/MishiPay-Scan-App";
+			};
+			name = Release;
+		};
+		ECC7E0072573709D008C867C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4KYKRT225;
+				INFOPLIST_FILE = "MishiPay-Scan-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zilingo.MishiPay-Scan-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MishiPay-Scan-App";
+			};
+			name = Debug;
+		};
+		ECC7E0082573709D008C867C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4KYKRT225;
+				INFOPLIST_FILE = "MishiPay-Scan-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zilingo.MishiPay-Scan-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MishiPay-Scan-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC7DFCE2573709B008C867C /* Build configuration list for PBXProject "MishiPay-Scan-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC7DFFE2573709D008C867C /* Debug */,
+				ECC7DFFF2573709D008C867C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC7E0002573709D008C867C /* Build configuration list for PBXNativeTarget "MishiPay-Scan-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC7E0012573709D008C867C /* Debug */,
+				ECC7E0022573709D008C867C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC7E0032573709D008C867C /* Build configuration list for PBXNativeTarget "MishiPay-Scan-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC7E0042573709D008C867C /* Debug */,
+				ECC7E0052573709D008C867C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC7E0062573709D008C867C /* Build configuration list for PBXNativeTarget "MishiPay-Scan-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC7E0072573709D008C867C /* Debug */,
+				ECC7E0082573709D008C867C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECC7DFDF2573709B008C867C /* MishiPay_Scan_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECC7DFE02573709B008C867C /* MishiPay_Scan_App.xcdatamodel */,
+			);
+			currentVersion = ECC7DFE02573709B008C867C /* MishiPay_Scan_App.xcdatamodel */;
+			path = MishiPay_Scan_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECC7DFCB2573709B008C867C /* Project object */;
+}
