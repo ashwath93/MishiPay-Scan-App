@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oiw-ru-t9u">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MishiPay_Scan_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is the Home page of the app." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KM7-jO-W9f">
+                                <rect key="frame" x="79" y="440" width="256.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KM7-jO-W9f" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0Cv-Lu-mrL"/>
+                            <constraint firstItem="KM7-jO-W9f" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="GxH-8Y-AMi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KM7-jO-W9f" secondAttribute="trailing" constant="8" id="Ijp-Sc-F11"/>
+                            <constraint firstItem="KM7-jO-W9f" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ccE-j5-edw"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Home" id="DZd-wa-w92">
+                        <rightBarButtonItems>
+                            <barButtonItem title="Cart" id="KKW-jr-v3d">
+                                <connections>
+                                    <segue destination="ElD-7Q-zNB" kind="show" id="71F-7g-NlY"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="camera" id="5p4-uY-kBg">
+                                <connections>
+                                    <action selector="checkPermissions" destination="BYZ-38-t0r" id="bmr-Hp-ZDr"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697.10144927536237" y="75"/>
+        </scene>
+        <!--Bar Code View Controller-->
+        <scene sceneID="VWJ-2L-pbt">
+            <objects>
+                <viewController storyboardIdentifier="BarCodeViewController" id="KDr-TX-u1v" customClass="BarCodeViewController" customModule="MishiPay_Scan_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TRS-dT-mL6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnM-rO-BQ9">
+                                <rect key="frame" x="8" y="52" width="35.5" height="38"/>
+                                <color key="tintColor" systemColor="linkColor"/>
+                                <inset key="contentEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                <state key="normal" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <action selector="dismissPage" destination="KDr-TX-u1v" eventType="touchUpInside" id="Qln-Bx-LBQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CqZ-FS-wNP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xnM-rO-BQ9" firstAttribute="top" secondItem="CqZ-FS-wNP" secondAttribute="top" constant="8" id="m9E-iZ-MYz"/>
+                            <constraint firstItem="xnM-rO-BQ9" firstAttribute="leading" secondItem="CqZ-FS-wNP" secondAttribute="leading" constant="8" id="oNI-0i-f7H"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eRp-9X-BcY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FN1-QR-5os" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697" y="802"/>
+        </scene>
+        <!--Cart View Controller-->
+        <scene sceneID="tUT-Bq-txb">
+            <objects>
+                <viewController storyboardIdentifier="CartViewController" id="ElD-7Q-zNB" customClass="CartViewController" customModule="MishiPay_Scan_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2gV-PS-Vly">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sIl-kQ-mGv">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ElD-7Q-zNB" id="d2K-Gd-HJz"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="F0c-g0-Jp0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sIl-kQ-mGv" firstAttribute="leading" secondItem="F0c-g0-Jp0" secondAttribute="leading" id="6gr-FN-nqB"/>
+                            <constraint firstItem="F0c-g0-Jp0" firstAttribute="trailing" secondItem="sIl-kQ-mGv" secondAttribute="trailing" id="ZGU-za-f8R"/>
+                            <constraint firstItem="sIl-kQ-mGv" firstAttribute="top" secondItem="F0c-g0-Jp0" secondAttribute="top" id="pPY-gz-F8I"/>
+                            <constraint firstItem="F0c-g0-Jp0" firstAttribute="bottom" secondItem="sIl-kQ-mGv" secondAttribute="bottom" id="s7a-EP-t72"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="AIr-uO-lJk"/>
+                    <connections>
+                        <outlet property="tableView" destination="sIl-kQ-mGv" id="WF5-Yi-uun"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HdH-B9-1ab" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1509" y="75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NtY-on-qPZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oiw-ru-t9u" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2NA-5b-qzr">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pEo-iG-Xo6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pZ1-uZ-XWA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-213.04347826086959" y="75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

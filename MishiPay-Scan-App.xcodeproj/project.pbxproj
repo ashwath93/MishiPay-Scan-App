@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC232EEB25738B7500AEAF06 /* BarCodeVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC232EEA25738B7500AEAF06 /* BarCodeVCViewModel.swift */; };
+		EC3375F32575F76A009C3CBE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3375F22575F76A009C3CBE /* Utilities.swift */; };
+		EC987680257514ED00267731 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98767E257514ED00267731 /* Item+CoreDataClass.swift */; };
+		EC987681257514ED00267731 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98767F257514ED00267731 /* Item+CoreDataProperties.swift */; };
 		ECC7DFD72573709B008C867C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFD62573709B008C867C /* AppDelegate.swift */; };
 		ECC7DFD92573709B008C867C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFD82573709B008C867C /* SceneDelegate.swift */; };
 		ECC7DFDB2573709B008C867C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFDA2573709B008C867C /* ViewController.swift */; };
@@ -16,6 +20,8 @@
 		ECC7DFE62573709D008C867C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC7DFE42573709D008C867C /* LaunchScreen.storyboard */; };
 		ECC7DFF12573709D008C867C /* MishiPay_Scan_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFF02573709D008C867C /* MishiPay_Scan_AppTests.swift */; };
 		ECC7DFFC2573709D008C867C /* MishiPay_Scan_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7DFFB2573709D008C867C /* MishiPay_Scan_AppUITests.swift */; };
+		ECC7E00D25737285008C867C /* BarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7E00C25737285008C867C /* BarCodeViewController.swift */; };
+		ECC7E0122573728E008C867C /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7E0112573728E008C867C /* CartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC232EEA25738B7500AEAF06 /* BarCodeVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeVCViewModel.swift; sourceTree = "<group>"; };
+		EC3375F22575F76A009C3CBE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EC98767E257514ED00267731 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EC98767F257514ED00267731 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		ECC7DFD32573709B008C867C /* MishiPay-Scan-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MishiPay-Scan-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC7DFD62573709B008C867C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECC7DFD82573709B008C867C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		ECC7DFF72573709D008C867C /* MishiPay-Scan-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MishiPay-Scan-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC7DFFB2573709D008C867C /* MishiPay_Scan_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MishiPay_Scan_AppUITests.swift; sourceTree = "<group>"; };
 		ECC7DFFD2573709D008C867C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC7E00C25737285008C867C /* BarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeViewController.swift; sourceTree = "<group>"; };
+		ECC7E0112573728E008C867C /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC232EEF25738FFF00AEAF06 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7DFDA2573709B008C867C /* ViewController.swift */,
+				ECC7E00C25737285008C867C /* BarCodeViewController.swift */,
+				ECC7E0112573728E008C867C /* CartViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EC232EF32573900700AEAF06 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC232EEA25738B7500AEAF06 /* BarCodeVCViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		EC232EF42573901400AEAF06 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EC98767E257514ED00267731 /* Item+CoreDataClass.swift */,
+				EC98767F257514ED00267731 /* Item+CoreDataProperties.swift */,
+				ECC7DFDF2573709B008C867C /* MishiPay_Scan_App.xcdatamodeld */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EC232EF52573902600AEAF06 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ECC7DFDC2573709B008C867C /* Main.storyboard */,
+				ECC7DFE42573709D008C867C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		ECC7DFCA2573709B008C867C = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +152,13 @@
 			children = (
 				ECC7DFD62573709B008C867C /* AppDelegate.swift */,
 				ECC7DFD82573709B008C867C /* SceneDelegate.swift */,
-				ECC7DFDA2573709B008C867C /* ViewController.swift */,
-				ECC7DFDC2573709B008C867C /* Main.storyboard */,
+				EC232EEF25738FFF00AEAF06 /* View Controllers */,
+				EC232EF52573902600AEAF06 /* Storyboard */,
 				ECC7DFE22573709D008C867C /* Assets.xcassets */,
-				ECC7DFE42573709D008C867C /* LaunchScreen.storyboard */,
 				ECC7DFE72573709D008C867C /* Info.plist */,
-				ECC7DFDF2573709B008C867C /* MishiPay_Scan_App.xcdatamodeld */,
+				EC232EF42573901400AEAF06 /* Entity */,
+				EC232EF32573900700AEAF06 /* View Model */,
+				EC3375F22575F76A009C3CBE /* Utilities.swift */,
 			);
 			path = "MishiPay-Scan-App";
 			sourceTree = "<group>";
@@ -265,6 +315,12 @@
 				ECC7DFD72573709B008C867C /* AppDelegate.swift in Sources */,
 				ECC7DFE12573709B008C867C /* MishiPay_Scan_App.xcdatamodeld in Sources */,
 				ECC7DFD92573709B008C867C /* SceneDelegate.swift in Sources */,
+				ECC7E0122573728E008C867C /* CartViewController.swift in Sources */,
+				EC232EEB25738B7500AEAF06 /* BarCodeVCViewModel.swift in Sources */,
+				EC987681257514ED00267731 /* Item+CoreDataProperties.swift in Sources */,
+				EC987680257514ED00267731 /* Item+CoreDataClass.swift in Sources */,
+				EC3375F32575F76A009C3CBE /* Utilities.swift in Sources */,
+				ECC7E00D25737285008C867C /* BarCodeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4KYKRT225;
 				INFOPLIST_FILE = "MishiPay-Scan-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4KYKRT225;
 				INFOPLIST_FILE = "MishiPay-Scan-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
